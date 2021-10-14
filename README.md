@@ -1,4 +1,6 @@
 # shopee-export-duta
+![image](https://user-images.githubusercontent.com/22533137/137361341-da65815e-0365-47fa-a285-3378cb8f5e4e.png)
+
 caranya :<br/>
 1.download<br/>
 2.simpan di komputer<br/>
