@@ -1,0 +1,30 @@
+{
+ "manifest_version": 2,
+ "name": "Export Shopee Duta Dropship",
+ "description": "Upload penjualan shopee ke duta dropship.",
+ "homepage_url": "https://www.DutaDropship.com",
+ "browser_action": {
+  "default_icon": "ico.png",
+  "icons": {
+   "16": "ico16.png",
+   "48": "ico48.png",
+   "128": "ico128.png"
+  },
+  "default_title": "Export Shopee Duta Dropship",
+  "default_popup": "popup.html"
+ },
+ "update_url":"http://clients2.google.com/service/update2/crx",
+ "version": "1.0",
+ "permissions": [
+  "activeTab",
+  "storage",
+    "tabs"
+ ],
+ "background": {
+   "scripts": ["bg.js"]
+ },"content_scripts":[{
+    "matches": ["http://*/*","https://*/*"],
+      "js": ["jquery.min.js","popup.js"],
+            "run_at": "document_end"
+  }]
+}
