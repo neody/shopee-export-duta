@@ -1,5 +1,5 @@
 # shopee-export-duta
-caranya :
+caranya :<br/>
 1.download<br/>
 2.simpan di komputer<br/>
 3. masuk setting chrome extension<br/>
