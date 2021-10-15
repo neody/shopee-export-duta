@@ -19,10 +19,7 @@
   "activeTab",
   "storage",
     "tabs"
- ],
- "background": {
-   "scripts": ["bg.js"]
- },"content_scripts":[{
+ ],"content_scripts":[{
     "matches": ["http://*/*","https://*/*"],
       "js": ["jquery.min.js","popup.js"],
             "run_at": "document_end"
